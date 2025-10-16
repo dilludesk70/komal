@@ -1,76 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-    <!-- Viewport tag that enables responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Family Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Family Website</title>
   <style>
     body {
-      background-color: #fff0f5;
-      font-family: "Comic Sans MS", cursive;
+      background: linear-gradient(135deg, #f7e7e6, #e6f0ff);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
     }
-    h1 {
-      color: #e75480;
-      text-shadow: 1px 1px 3px #ffb6c1;
-    }
-    img {
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border: 3px solid #f08faf;
       border-radius: 20px;
-      box-shadow: 0 0 15px pink;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      padding: 40px;
     }
-    a {
+
+    h1 {
+      color: #e64c85;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #e64c85;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+
+    img {
+      width: 500px;
+      height:auto ;
+      border-radius: 20px;
+      border: 5px solid #e64c85;
+      margin-top: 20px;
+      box-shadow: 0 4px 12px rgba(230, 76, 133, 0.3);
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin: 15px 0;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .buttons a {
       text-decoration: none;
-      color: #e75480;x3
+      background: #e64c85;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(230, 76, 133, 0.3);
+    }
+
+    .buttons a:hover {
+      background: #c0396b;
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(192, 57, 107, 0.5);
+    }
+
+    .thankyou {
+      margin-top: 40px;
+      font-size: 1.3em;
+      color: #e64c85;
       font-weight: bold;
     }
-    a:hover {
-      color: #ff1493;
-    }
-    footer {
-      margin-top: 30px;
-      background-color: #ffe4ec;
-      padding: 10px;
-      font-size: 14px;
-    }
+
   </style>
 </head>
 <body>
 
-  
- <center>   <h1> <pre>💖 Welcome to my Beautiful Family Website
-            — Made with Love and Memories💖</h1>
-  </center>
-    
-   <center> <p><i>“Where life begins and love never ends.”</i></p>
-     <img src="familypic.jpg" ,alt="familypic" ,="" width="500" height="400" alt="Family Photo">
-  </center>
+  <div class="container">
+    <h1>🏡 My Family Website 💖</h1>
+    <img src="familypic.jpg" alt="My Family Photo">
 
-  
-    <center>
+    <p>✨ Our family is a beautiful blend of love, care, and inspiration. Each member has a unique personality that makes our home lively and happy.</p>
+    <p>🌟 We believe in supporting each other, learning together, and celebrating every small joy in life. Our pets Tuktuk 🐢 and Gauri 🐇 add extra happiness and fun to our daily lives!</p>
+    <p>💖 Together, we create memories, share laughter, and grow stronger as a family every day.</p>
 
-      <p>   <a href ="father.html" > MEET MY FATHER</a> - The superhero of my family.</p>
-    <p>🌸 <a href="mother.html">MEET MY MOTHER</a> - The heart of my family.</p>
-      <p>🌻 <a href="brother.html"> MEET MY BROTHER</a> -The laughter and protector.</p>
-    <p>🌷 <a href="mee.html">MEET MEEE</a> -The dreamer of my family.</p>
-      <p>   <a href="mypets.html"> MEET MY PETS</a> - The beautiful hearts of my family.</p>
-    </center>
+    <div class="buttons">
+      <a href="father.html">👨 My Father</a>
+      <a href="mother.html">👩 My Mother</a>
+      <a href="brother.html">👦 My Brother</a>
+      <a href="mee.html">👩 Me</a>
+      <a href="mypets.html">🐢🐇 My Pets</a>
+    </div>
 
+    <div class="thankyou">
+      🌸 Thank you for visiting my website! 🌸
+    </div>
+  </div>
 
-  <!-- 💫 Scrolling Family Memory -->
-  <marquee behavior="alternate" scrollamount="4">
-    💫 “Family is where life begins and love never ends.” 💫
-  </marquee>
-
-  <footer>
-    <center>© 2025 The Dolly Family | Created with 💖 and HTML</center>
-  </footer>
 </body>
-
 </html>
-
-
-
-
-
-
